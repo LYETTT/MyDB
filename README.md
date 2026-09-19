@@ -12,13 +12,14 @@ MyDB 是一个使用 C++20 从零实现的教学型 Mini DBMS。项目主要参�
 - 通过终端菜单读取全部用户。
 
 这个版本还没有 Page、B+Tree、索引、事务和 SQL 引擎。程序运行生成的 `*.table` 文件属于本地数据，不由 Git 跟踪。
+该版本的源码保存在 `examples/raw_table/`。
 
 ## 构建和运行
 
 ```bash
 cmake -S . -B build
 cmake --build build
-./build/MyDB
+./build/raw_table_example
 ```
 
 下一阶段将从原书 Chapter 4 的 B+Tree Node 二进制布局开始实现。
