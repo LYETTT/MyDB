@@ -1,0 +1,10 @@
+# CMake build output
+cmake-build-*/
+build/
+
+# CLion project-local settings
+.idea/
+
+# Local generated files
+tmp/
+*.table
