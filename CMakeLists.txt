@@ -15,3 +15,11 @@ add_executable(raw_table_example
 target_include_directories(raw_table_example PRIVATE
     examples/raw_table/include
 )
+
+add_library(mydb_btree
+    src/btree_node.cpp
+)
+
+target_include_directories(mydb_btree PUBLIC
+    include
+)
